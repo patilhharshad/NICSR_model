@@ -25,7 +25,7 @@ if st.button("Analyze"):
     pred3, proba3 = predict_sentiment3(text)
 
     sentiment, probs = predict_sentiment3(text)
-    st.header('NICSR model result')
+    #st.header('NICSR model result')
     if sentiment == 1:
         st.success("Non-ICSR")
     else:
